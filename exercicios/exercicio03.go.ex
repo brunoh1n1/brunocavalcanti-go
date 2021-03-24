@@ -8,4 +8,4 @@
 // 2. Agora imprima os valores armazenados nestas variáveis
 // utilizando:
 // a. Uma única chamada de Print (Um único Print)
-// b. Múltiplas chamadas de Print
+// b. Múltiplas chamadas de Print.
