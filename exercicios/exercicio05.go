@@ -29,5 +29,4 @@ func main(){
   fmt.Printf("%v %v %v", x, y, z)
   fmt.Scanf("%v", &s)
   fmt.Printf("\n%v\n", s)
-    fmt.Println("E Agora")
 }
