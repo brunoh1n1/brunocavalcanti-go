@@ -13,3 +13,21 @@
 // utilizando o declaradaor curto (short) para uma VARIÁVEL
 // com o IDENTIFICADOR "s".
 // b. imprima o valor de "s"
+
+package main
+
+import (
+  "fmt"
+)
+
+var x = 42
+var y = "James Bond"
+var z = true
+var s string
+func main(){
+  fmt.Println(y)
+  fmt.Printf("%v %v %v", x, y, z)
+  fmt.Scanf("%v", &s)
+  fmt.Printf("\n%v\n", s)
+    fmt.Println("E Agora")
+}

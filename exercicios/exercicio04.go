@@ -10,3 +10,21 @@
 // a. Imprima os valores de cada variável
 // b. O compilador atribuiu um valor para cada variável. Como esse
 // valor se chama?
+
+
+package main
+
+import (
+  "fmt"
+)
+
+var x int
+var y string
+var z bool
+
+func main(){
+  fmt.Println(x)
+  fmt.Println(y)
+  fmt.Println(z)
+  fmt.Println("Valores chamados de Valor Zero")
+}
