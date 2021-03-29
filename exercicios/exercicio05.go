@@ -17,16 +17,17 @@
 package main
 
 import (
-  "fmt"
+	"fmt"
 )
 
 var x = 42
 var y = "James Bond"
 var z = true
 var s string
-func main(){
-  fmt.Println(y)
-  fmt.Printf("%v %v %v", x, y, z)
-  fmt.Scanf("%v", &s)
-  fmt.Printf("\n%v\n", s)
+
+func main() {
+	fmt.Println(y)
+	fmt.Printf("%v %v %v", x, y, z)
+	fmt.Scanf("%v", &s)
+	fmt.Printf("\n%v\n", s)
 }
