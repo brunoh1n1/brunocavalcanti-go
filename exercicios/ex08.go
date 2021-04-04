@@ -15,3 +15,22 @@
 // 		de "x" para o tipo original de seu TIPO.
 // 		ii. Atribuir este valor a "y".
 // 		iii. Imprima o tipo de "y".
+
+package main
+
+import (
+	"fmt"
+)
+
+type bruno int
+var x bruno
+var y int
+
+func main() {
+  fmt.Println(x)
+  fmt.Printf("%T\n", x)
+  x = 42
+  fmt.Println(x)
+  y = int(x)
+  fmt.Printf("%T\n", y)
+}
