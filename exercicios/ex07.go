@@ -8,3 +8,14 @@
 // 	b. imprima o tipo da variável "x"
 // 	c. atribua 42 para a variável "x" utilizando o operador "="
 // 	d. imprima o valor da variável "x"
+
+package main
+
+import (
+	"fmt"
+)
+
+
+func main() {
+
+}

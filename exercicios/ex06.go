@@ -29,3 +29,23 @@
 // 
 // 3. Após imprimir o texto acima, atribua o valor da variável pesopizza de forma que ele seja o seu peso + 1kg.
 // Em seguida imprima o valor e o tipo da variável pesopizza
+
+package main
+
+import (
+	"fmt"
+)
+
+var nome = "Bruno"
+var idade = 29
+var peso = 99.5
+var pesopizza int
+
+func main() {
+	//fmt.Println(x)
+	//fmt.Printf("%v %v %v", x, y, z)
+	//fmt.Scanf("%v", &s)
+	fmt.Printf("Meu nome é %v. Estou aprendendo o básico de Go e git.\nPossuo %v anos e estou pesando aproximadamente %v.\nUtilizei variáveis para lhe passar estas informações pessoais com Go.\nPor exemplo, utilizei a variável nome, com o tipo %T.\nUtilizei outras duas variáveis, para idade e peso, com os tipos %T e %T.\nGosto muito de pizza, portanto fui em um rodízio de pizzas ontem e acabei engordando 1 kg.\n", nome, idade, peso, nome, idade, peso)
+    pesopizza = int(peso) + 1.0
+	fmt.Printf("peso atia após rodizio: %v\ntipo variavel pesopizza %T\n", pesopizza, pesopizza)
+}
