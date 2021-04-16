@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: logs-replicaset
+  labels:
+    tipo: logs
+spec:
+  replicas: 6
+  selector:
+    matchLabels:
+      tipo: logs
+  template:
+    metadata:
+      labels:
+        tipo: logs
+    spec:
+      containers:
+      - name: logs-replicaset
+        image: nginx
