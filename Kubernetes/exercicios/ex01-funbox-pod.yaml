@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: funbox
+spec:
+  containers:
+  - image: wernight/funbox
+    name: funbox
